@@ -1,0 +1,16 @@
+flask
+flask-cors
+requests
+gunicorn
+```
+
+## 3. **Set Environment Variables in Render**
+
+1. Go to your Render dashboard
+2. Select your web service (`zeqamart`)
+3. Go to **Environment** tab
+4. Add these environment variables:
+```
+OPENROUTER_KEY_1 = sk-or-v1-your-first-key
+OPENROUTER_KEY_2 = sk-or-v1-your-second-key
+OPENROUTER_KEY_3 = sk-or-v1-your-third-key
