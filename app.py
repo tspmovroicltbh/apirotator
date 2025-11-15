@@ -18,7 +18,7 @@ API_KEYS = [key for key in API_KEYS if key]
 
 current_key_index = 0
 
-@app.route('/api/analyze-trade', methods=['POST'])
+@app.route('/analyze-trade', methods=['POST'])
 def analyze_trade():
     global current_key_index
     
